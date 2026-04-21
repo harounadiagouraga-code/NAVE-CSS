@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    font-family: "Georgia";
+    background-image: url("https://c8.alamy.com/compfr/ae2456/centre-ville-dakar-senegal-ae2456.jpg");
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.overlay{
+    background: rgba(0,0,0,0.7);
+    min-height: 100vh;
+    padding:50px;
+}
+
+.menu{
+    max-width:700px;
+    margin:auto;
+    text-align:center;
+    color: aqua;
+}
+
+h1{
+    font-size:50px;
+    color:white;
+    letter-spacing:30px;
+}
+
+h2{
+    margin-top:30px;
+    color:yellow;
+    border-bottom:1px solid #d4af37;
+    padding-bottom:6px;
+}
+
+.item{
+    display:flex;
+    justify-content:space-between;
+    margin:15px;
+    font-size:20px;
+}
+
+.item span{
+    color:yellow;
+}
